@@ -12,7 +12,7 @@ URL:		http://www.jonof.id.au/misc#unpackssi
 
 Group:		Archiving/Compression
 BuildRoot:	%{_tmppath}/%{name}-%{version}
-License:	GPLv2
+License:	GPLv2+
 
 %description
 This is a small program to extract the files from the .SSI package format
