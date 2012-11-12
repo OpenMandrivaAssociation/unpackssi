@@ -1,0 +1,11 @@
+--- unpackssi-20030612/Makefile	2003-05-16 20:23:18.000000000 +0200
++++ unpackssi-20030612/Makefile2	2010-08-13 23:06:26.125522472 +0200
+@@ -1,7 +1,7 @@
+ CC=gcc
+ CFLAGS=
+ 
+-unpackssi.exe: unpackssi.o
++unpackssi: unpackssi.o
+ 	$(CC) $(CFLAGS) -o $@ $^
+ 
+ unpackssi.o: unpackssi.c
