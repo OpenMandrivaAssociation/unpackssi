@@ -38,3 +38,10 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc readme.txt
 %{_bindir}/%{name}
+
+
+%changelog
+* Sat Aug 28 2010 Maarten Vanraes <alien@mandriva.org> 20030612-1mdv2011.0
++ Revision: 573776
+- import unpackssi
+
