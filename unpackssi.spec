@@ -1,6 +1,6 @@
 %define name	unpackssi
 %define version	20030612
-%define release	%mkrel 1
+%define release	2
 
 Name:		%{name}
 Summary:	.SSI File Unpacker
