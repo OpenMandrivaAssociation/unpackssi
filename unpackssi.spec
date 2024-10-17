@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 Source0:	http://static.jonof.id.au/dl/%{name}.zip
 Patch0:		unpackssi-20030612-mdv-linuxify.patch
-URL:		http://www.jonof.id.au/misc#unpackssi
+URL:		https://www.jonof.id.au/misc#unpackssi
 
 Group:		Archiving/Compression
 BuildRoot:	%{_tmppath}/%{name}-%{version}
