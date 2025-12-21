@@ -14,6 +14,7 @@ Group:		Archiving/Compression
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 License:	GPLv2+
 
+BuildRequires:	make
 %description
 This is a small program to extract the files from the .SSI package format
 which Sunstorm Interactive expansion packs for games like Duke Nukem 3D
